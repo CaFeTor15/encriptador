@@ -28,5 +28,10 @@ body{
     left: 240px;
 
  }
- 
+ .botones{
+
+ }
+ .botones li{
+    display: inline-block;
+ }
  
