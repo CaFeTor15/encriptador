@@ -18,18 +18,29 @@
         <fieldset>
             <ul class="contenedor-texto">
                 <li>
-                    <textarea class="input-text-encriptar" placeholder="Ingrese el texto a encriptar aquí"></textarea>
+                    <textarea class="input-text-encriptar" id="TextoEncriptar" placeholder="Ingrese el texto a encriptar aquí"></textarea>
                 </li> 
                 <li>
-                    <textarea class="input-text-encriptar"></textarea>
+                    <textarea class="input-text-encriptar" disabled></textarea>
+                </li>
+                <li>
+                    <div  id="imagen" style="display: none;">
+                        <img src="imagenes/Muñeco.jpg">
+                    </div>
+                    <div id="mensajeTexto" style="display: none;">
+                        <label>No se ha ingresado ningun texto</label>
+                    </div>
                 </li>
             
             </ul>
         </fieldset>
+        <div>
+           
+        </div>
         <fieldset>
             <ul class="botones"> 
                 <li>
-                    <button>Encriptar Texto</button>
+                    <button onclick="Encriptar()">Encriptar Texto</button>
                 </li>
                 <li>
                     <button disabled>Desencriptar Texto</button>
@@ -41,5 +52,6 @@
     <footer>
 
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>

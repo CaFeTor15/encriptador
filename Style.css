@@ -1,8 +1,9 @@
 
 body{
-    width: 1024px;
+    width: 1240px;
+    height: auto;
     background: #F3F5FC;
-    text-align: center;
+    
   }
 .logo{
     width: 32px;
@@ -12,9 +13,9 @@ body{
 
  }
  .contenedor-texto{
-    width: 940px;
+    width: 1000px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 150px 50px 20px 100px;
     
  }
  .contenedor-texto li{
@@ -29,9 +30,13 @@ body{
 
  }
  .botones{
+   width: 970px;
+    text-align: center;
 
  }
  .botones li{
     display: inline-block;
  }
+
+ 
  
