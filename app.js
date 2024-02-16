@@ -35,8 +35,10 @@ function Encriptar() {
     // se muestra el resultado de la modificacion 
         document.getElementById('TextFinal').value = texEncriptado;
         document.getElementById('TextoEncriptar').value='';
+        document.getElementById('BtCopiar').style.display='block'
         document.getElementById('BtCopiar').removeAttribute('disabled');
         document.getElementById('TextFinal').removeAttribute('disabled');
+        
     }
    
 }

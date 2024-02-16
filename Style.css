@@ -4,6 +4,10 @@ body{
     height: auto;
     background: #F3F5FC;
     text-align: center;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
     
   }
 .logo{
@@ -13,15 +17,13 @@ body{
     padding: 50px;
 
  }
+ 
  .titulo-pagina{
    height: 34px;
    padding: 60px 60px 20px 79px;
  }
  .contenedor-texto{
-   /* width: 1000px;
-    margin: 0 auto;
-    padding: 40px 50px 20px 100px;*/
-    padding: 25px 50px 20px 80px
+   padding: 25px 50px 20px 80px
     
  }
  .contenedor-texto li{
@@ -38,24 +40,44 @@ body{
    width: 314px;
    height: 396px;
    border-radius: 15px;
-   /*background-image: url(imagenes/Muñeco.jpg);*/
    background-repeat: no-repeat;
    background-position-x: center;
    background-position-y:bottom ;
    background-color: transparent;
  }
  .botones{
-   width: 470px;
-    text-align: center;
-    padding: 9px 0px 2px 250px
+  padding: 0px 0px 15px 0px;
+  
 
  }
  .botones li{
     display: inline-block;
+    padding: 0px 4px;
  }
  button{
+  padding: 10px 20px;
+  border: none;
+  color: #ffffff;
    border-radius: 8px;
+   cursor: pointer;
+   background-color: rgba(238, 154, 59, 0.973);
  }
+ 
+ button:hover{
+  background: darkorange;
+  transform: scale(1.1);
+ }
+ #BtCopiar{
+  display: none;
+ }
+ .ColorIco{
+   filter: invert(99%) sepia(1%) saturate(1811%) hue-rotate(135deg) brightness(99%) contrast(89%);
+ }
+ .copyright{
+  color:#4b474736;
+  font-size: 13px;
+  margin:20px;
+}
 
  
  

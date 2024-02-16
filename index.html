@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
     <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -31,19 +32,17 @@
                           
             </ul>
         </fieldset>
-        <div>
-           
-        </div>
+      
         <fieldset>
             <ul class="botones"> 
                 <li>
-                    <button onclick="Encriptar()">Encriptar Texto</button>
+                    <button onclick="Encriptar()"><img src="iconos/encrypted.png" class="ColorIco"> Encriptar Texto</button>
                 </li>
                 <li>
-                    <button onclick="Desencriptar()">Desencriptar Texto</button>
+                    <button onclick="Desencriptar()"><img src="iconos/Desencrypted.png" class="ColorIco" > Desencriptar Texto</button>
                 </li>
                 <li>
-                    <button id="BtCopiar" onclick="Copiar()" disabled="disabled">Copiar</button>
+                    <button id="BtCopiar" onclick="Copiar()" disabled="disabled" ><img src="iconos/copy.png" class="ColorIco" > Copiar</button>
                 </li>
             </ul>
         </fieldset>
@@ -52,6 +51,7 @@
     <footer>
 
     </footer>
+    <p class="copyright">&copy Copyright Company TecnoTorres - 2024</p>
     <script src="app.js"></script>
 </body>
 </html>
