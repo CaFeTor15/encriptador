@@ -1,26 +1,27 @@
 
 body{
-    width: 1240px;
+    width: auto;
     height: auto;
     background: #F3F5FC;
+    text-align: center;
     
   }
 .logo{
-    width: 32px;
+   width: 32px;
     height: 52px;
     position: absolute;
     padding: 50px;
 
  }
  .titulo-pagina{
-   width: 530px;
    height: 34px;
-   padding: 60px 0px 10px 200px;
+   padding: 60px 60px 20px 79px;
  }
  .contenedor-texto{
-    width: 1000px;
+   /* width: 1000px;
     margin: 0 auto;
-    padding: 40px 50px 20px 100px;
+    padding: 40px 50px 20px 100px;*/
+    padding: 25px 50px 20px 80px
     
  }
  .contenedor-texto li{

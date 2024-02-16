@@ -35,11 +35,14 @@ function Encriptar() {
     // se muestra el resultado de la modificacion 
         document.getElementById('TextFinal').value = texEncriptado;
         document.getElementById('TextoEncriptar').value='';
+        document.getElementById('BtCopiar').removeAttribute('disabled');
+        document.getElementById('TextFinal').removeAttribute('disabled');
     }
    
 }
 // funcion para desencriptar
 function Desencriptar(){
+        
         // Variable que guarda el texto desencriptado
         let textoDesencriptado;
         //captura de valor a encriptar
@@ -47,7 +50,7 @@ function Desencriptar(){
          
         if(textEncriptar==""){
             document.getElementById('TextFinal').value = "<= Por favor ingrese el Texto ";
-        document.getElementById('TextFinal').style.backgroundImage='url(imagenes/Muñeco.jpg)' ;
+            document.getElementById('TextFinal').style.backgroundImage='url(imagenes/Muñeco.jpg)' ;
                     
         }
         else{
@@ -68,13 +71,15 @@ function Desencriptar(){
             //Muestro el resultado 
             document.getElementById('TextFinal').value =textoDesencriptado;
             document.getElementById('TextoEncriptar').value='';
-            console.log(textoDesencriptado);
-                    // Se crea un control en caso de que el texto no tenga encriptación
-            if(textEncriptar=textoDesencriptado){
-                alert('el mensaje no tiene ninguna encriptacion');
-                document.getElementById('TextFinal').value = "<= Por favor ingrese un Texto  que este encriptado ";
-                document.getElementById('TextFinal').style.backgroundImage='url(imagenes/Muñeco.jpg)' ;
-            }
+            
+            
+           
          }
+}
+function Copiar() {
+    const copiarTexto = document.querySelector('.input-text');
+    copiarTexto.focus();
+    document.execCommand('SelectAll');
+    document.execCommand('Copy');
 }
 
