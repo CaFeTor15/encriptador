@@ -12,30 +12,48 @@ body{
     padding: 50px;
 
  }
+ .titulo-pagina{
+   width: 530px;
+   height: 34px;
+   padding: 60px 0px 10px 200px;
+ }
  .contenedor-texto{
     width: 1000px;
     margin: 0 auto;
-    padding: 150px 50px 20px 100px;
+    padding: 40px 50px 20px 100px;
     
  }
  .contenedor-texto li{
     display: inline-block;
  }
- .input-text-encriptar{
+ #TextoEncriptar{
     color: red;
     width: 314px;
     height: 396px;
-    top: 168px;
-    left: 240px;
+    border-radius: 15px;
 
  }
+ #TextFinal{
+   width: 314px;
+   height: 396px;
+   border-radius: 15px;
+   /*background-image: url(imagenes/Muñeco.jpg);*/
+   background-repeat: no-repeat;
+   background-position-x: center;
+   background-position-y:bottom ;
+   background-color: transparent;
+ }
  .botones{
-   width: 970px;
+   width: 470px;
     text-align: center;
+    padding: 9px 0px 2px 250px
 
  }
  .botones li{
     display: inline-block;
+ }
+ button{
+   border-radius: 8px;
  }
 
  

@@ -12,26 +12,23 @@
         <div class="logo">
             <img src="imagenes/Logo.png" alt="Logo de Alura">
         </div>
+        <div class="titulo-pagina">
+            <h1>ENCRIPTADOR Y DESENCRIPTADOR DE TEXTO</h1>
+        </div>
         
     </header>
     <main>
         <fieldset>
             <ul class="contenedor-texto">
                 <li>
-                    <textarea class="input-text-encriptar" id="TextoEncriptar" placeholder="Ingrese el texto a encriptar aquí"></textarea>
+                    <div id="resultadoTexto">
+                    <textarea class="input-text-encriptar" id="TextoEncriptar" placeholder="Ingrese el texto a Encriptar o Desencriptar aquí"></textarea>
+                    </div>
                 </li> 
                 <li>
-                    <textarea class="input-text-encriptar" disabled></textarea>
+                    <textarea class="input-text-encriptar"  id="TextFinal" disabled></textarea>
                 </li>
-                <li>
-                    <div  id="imagen" style="display: none;">
-                        <img src="imagenes/Muñeco.jpg">
-                    </div>
-                    <div id="mensajeTexto" style="display: none;">
-                        <label>No se ha ingresado ningun texto</label>
-                    </div>
-                </li>
-            
+                          
             </ul>
         </fieldset>
         <div>
