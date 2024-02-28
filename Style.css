@@ -23,7 +23,7 @@ body{
    padding: 60px 60px 20px 79px;
  }
  .contenedor-texto{
-   padding: 25px 50px 20px 80px
+   padding: 25px 50px 20px 50px
     
  }
  .contenedor-texto li{
@@ -34,6 +34,7 @@ body{
     width: 314px;
     height: 396px;
     border-radius: 15px;
+    text-transform: lowercase;
 
  }
  #TextFinal{
@@ -45,6 +46,11 @@ body{
    background-position-y:bottom ;
    background-color: transparent;
  }
+ .Info{
+  color:#1b1a1ab7;
+  font-size: 13px;
+  margin:20px;
+ }
  .botones{
   padding: 0px 0px 15px 0px;
   
@@ -52,7 +58,7 @@ body{
  }
  .botones li{
     display: inline-block;
-    padding: 0px 4px;
+    padding: 2px 4px;
  }
  button{
   padding: 10px 20px;
@@ -80,7 +86,7 @@ body{
 }
 /* diseño responsivo*/
 
-@media screen and(max-width:768px){
+@media screen and(max-width:268px){
   body{
     width: 768px;
     height: 1174px;
@@ -88,6 +94,10 @@ body{
   }
   h1{
     text-align: center;
+}
+.botones li{
+  display: inline-block;
+  padding: 2px 4px;
 }
 
 

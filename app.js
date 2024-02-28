@@ -56,7 +56,7 @@ function Desencriptar(){
                     
         }
         else{
-             // ocultamos la imagen y el mensaje por que ya ahi un mensaje a encriptar
+             // ocultamos la imagen y el mensaje por que ya ahi un mensaje a desencriptar
              document.getElementById('TextFinal').style.backgroundImage='none' ;
             
     // Variable de tipo OBJ que contiene la llave para desencriptar
